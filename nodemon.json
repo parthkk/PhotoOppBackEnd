@@ -1,0 +1,8 @@
+{
+  "env": {
+    "DB_USER": "parth",
+    "DB_PASSWORD": "parthmongodb",
+    "DB_NAME": "mern",
+    "GOOGLE_API_KEY": "AIzaSyBBkFQMFwp57P6I0a9MNDDDrdAl79lVoPk"
+  }
+}
