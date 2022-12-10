@@ -49,7 +49,7 @@ const getPlacesByUserId = async (req, res, next) => {
   }
 
   //if (!places)
-  if (!userWithPlaces || userWithPlaces.places.length === 0) {
+  if (!userWithPlaces) {
     return next(
       new HttpError("Could not find places for the provided id.", 404)
     );
