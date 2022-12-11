@@ -20,7 +20,7 @@ const fileUpload = multer({
   fileFilter: (req, file, cb) => {
     const isValid = !!MIME_TYPE_MAP[file.mimetype];
     sharp(req.file)
-      .resize(200, 200)
+      .resize(40, 40)
       .toBuffer(function (err, buf) {
         if (err) return next(err);
 
